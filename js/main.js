@@ -21,7 +21,13 @@ $("#return").text("Kusur: "+parseInt(kusur)+"Din");
 });
 
 
+$("#money_given").focusin(function(){
 
+$("#moneyg").val("");
+$("#qnty").val("");
+$("#price").val("");
+
+})
 
 
 $("#reset").click(function(){
