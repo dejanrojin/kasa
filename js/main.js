@@ -21,7 +21,7 @@ $("#return").text("Kusur: "+parseInt(kusur)+"Din");
 });
 
 
-$("#money_given").focusin(function(){
+$("input").focusin(function(){
 
 $("#moneyg").val("");
 $("#qnty").val("");
